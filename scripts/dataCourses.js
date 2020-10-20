@@ -1,0 +1,9 @@
+import { Course } from './course.js';
+export var dataCourses = [
+    new Course("TI EN LAS ORGANIZACIONES", "JULIAN DAVID MORENO", 3),
+    new Course("DESARROLLO DE SW EN EQUIPO", "JOSE JOAQUIN BOCANEGRA", 3),
+    new Course("SISTEMAS TRANSACCIONALES", "ANAMARIA IRMGARD MOJICA", 3),
+    new Course("DISEÑO Y ANÁLISIS DE ALGORITMOS", "JORGE ALEXANDER DUITAMA", 3),
+    new Course("DISEÑO Y ANÁLISIS DE ALGORITMOS", "FELIPE GUHL NANNETTI", 3),
+    new Course("SELECCIÓN TAEKWONDO", "MAYERLY CABREJO", 1)
+];
