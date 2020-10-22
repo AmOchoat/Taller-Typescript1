@@ -13,37 +13,21 @@
                     <h1>Andrés Martin Ochoa</h1>
                     <img class="img-fluid max-width: 100% height: auto" src="https://images.vexels.com/media/users/3/161710/isolated/preview/40d8c61af5a2a2fb42e8289208c57ff7-pato-cabeza-verde-plana-by-vexels.png" alt="Avatar">
                     <div class="h3 p-3">Datos Personales</div>
+
                     <table class="table">
                        
-                        <tbody>
-                            <tr>
-                                <td>Código</td>
-                                <td>201913554</td>
-                            </tr>
-                            <tr>
-                                <td>Cédula</td>
-                                <td>1003660292</td>
-                            </tr>
-                            <tr>
-                                <td>Edad</td>
-                                <td>18 Años</td>
-                            </tr>
-                            <tr>
-                                <td>Dirección</td>
-                                <td>Crr 8 # 22 - 85</td>
-                            </tr>
-                            <tr>
-                                <td>Teléfono</td>
-                                <td>3505881766</td>
-                            </tr>
-                        </tbody>    
+                        <tbody id="information">                        
+                        </tbody> 
+
                     </table>
                 </div>
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
                             <div class="h3 p-3">Cursos Actuales</div>
+
                             <form class="m-3"> 
+                                <h5>Filtrar por nombre:</h5>
                                 <div class="form-row">
                                     <div class="col">
                                         <input type="text" class="form-control" id="search-box"
@@ -55,6 +39,25 @@
                                     </div>
                                 </div>
                             </form>
+
+                            <form class="m-3"> 
+                                <h5>Filtrar por créditos:</h5>
+                                <div class="form-row">
+                                    <div class="col-5">
+                                        <input type="number" class="form-control" id="sb-minCredits"
+                                        placeholder="Valor mínimo">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="number" class="form-control" id="sb-maxCredits"
+                                        placeholder="Valor máximo">
+                                    </div>
+                                    <div class="col-2">
+                                        <button type="button" id="button-credits"
+                                            class="btn btn-success">Aplicar</button>
+                                    </div>
+                                </div>
+                            </form>
+                            
                             <table class="table">
                                 <thead class="thead-dark">
                                     <tr>
@@ -77,6 +80,8 @@
         </div>
         <script type="module" src="./scripts/course.js" ></script>
         <script type="module" src="./scripts/dataCourses.js" ></script>
+        <script type="module" src="./scripts/student.js" ></script>
+        <script type="module" src="./scripts/dataStudent.js" ></script>
         <script type="module" src="./scripts/main.js"></script>
     </body>
 </html>
